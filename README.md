@@ -48,13 +48,23 @@ This report comprises of 2 pages
       
 You can interact with the report [here]
 
-###Sales
+## Sales
 ![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/sales%20page.jpg)
-Total revenue generated between january 2019 to september 2022 is $43,381 
-Total profit generated between january 2019 to september 2022 is $4,340 
-There was a significant revenue increase between 2020 to 2021, where 2021 revenue increased by 11.97%.
-The United states account for 80% of the total revenue.
-The Liberica and Excelsa coffee types generates the most profit
+- Total revenue generated between january 2019 to september 2022 is $43,381.
+- Total profit generated between january 2019 to september 2022 is $4,340.
+- There was a significant revenue increase between 2020 to 2021, where 2021 revenue increased by 11.97%.
+- The United states accounts for 80% of the total revenue.
+- The Liberica and Excelsa coffee types generates the most profit.
+
+## Customers
+![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/customer%20page.jpg)
+- The total number customers between january 2019 to september 2022 is 1000.
+- The total number of customers that should have a loyalty card is 487.
+- Average quantity of coffee beans bought by customers is 3.56.
+- The top two most ordered coffee beans by customer are Arabica and Excelsa and they both account for 51% of the total orders.
+- the countries with the highest and lowest numbers of customers are the United states and United kingdm respectively.
+- The total number of customers that should be responsible for a 10% discount are 293.
+
 
 
 
