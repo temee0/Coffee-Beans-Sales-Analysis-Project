@@ -57,14 +57,21 @@ You can interact with the report [here]
 - The Liberica and Excelsa coffee types generates the most profit.
 
 ## Customers
-![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/customer%20page.jpg)
+![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/Customer%20page%201.jpg)
 - The total number customers between january 2019 to september 2022 is 1000.
-- The total number of customers that should have a loyalty card is 487.
+- The total number of customers that should be issued a loyalty card is 487.
 - Average quantity of coffee beans bought by customers is 3.56.
 - The top two most ordered coffee beans by customer are Arabica and Excelsa and they both account for 51% of the total orders.
 - the countries with the highest and lowest numbers of customers are the United states and United kingdm respectively.
-- The total number of customers that should be responsible for a 10% discount are 293.
+- The total number of customers that should be eligible for a 10% discount are 293.
+- The total number of customers that are yet to place an order are 87.
 
+## Conclusion
+The United States is the dominant market, contributing 80% of the total revenue. This suggests a strong foothold in the US market and potential opportunities for further expansion.
+
+Liberica and Excelsa coffee beans types generate the most profit indicating higher profit margins compared to other coffee beans. 
+
+The presence of 87 customers who have yet to place an order signals a potential area for improvement in customer engagement or outreach. 
 
 
 
