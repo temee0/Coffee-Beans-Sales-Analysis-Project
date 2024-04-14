@@ -2,8 +2,9 @@
 ![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/intro%20pic.jpg)
 
 ## Introduction
-This is an exploratory data analysis (EDA) project focused on the sales analysis of a fictional coffee bean store. The purpose of this project is to analyze and derive insights to address crucial questions and assist the store in making data-driven decisions. 
-_**Disclaimer**_: _The dataset used in this analysis is sourced from Kaggle and is entirely fictitious. Therefore, this report does not represent any specific company, institution, or country. Rather, it serves as a demonstration of data analysis and visualization skills._
+
+This is an exploratory data analysis (EDA) project focused on the sales analysis of a fictional coffee bean store. The purpose of this project is to analyze and derive insights to address crucial questions and assist the store in making data-driven decisions.     
+**_Disclaimer_** :  _The dataset used in this analysis is sourced from Kaggle and is entirely fictitious. Therefore, this report does not represent any specific company, institution, or country. Rather, it serves as a demonstration of data analysis and visualization skills._
 
 ## Problem Statement
 #### 1. Popular Picks:
@@ -38,4 +39,11 @@ Who qualifies for our 10% discount promotion?
 
 ## Modelling
 Automatically derived relationships have been adjusted to remove or replace unwanted relationships with the required relationships.
- 
+![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/Coffee%20data%20model.jpg)
+
+## Visualization
+This report comprises of 2 pages 
+- Sales page
+- Customer page         
+You can interact with the report [here]
+
