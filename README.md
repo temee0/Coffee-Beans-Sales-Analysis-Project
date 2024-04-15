@@ -57,7 +57,7 @@ You can interact with the report [here]
 - The Liberica and Excelsa coffee types generates the most profit.
 
 ## Customers
-![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/Customer%20page%201.jpg)
+![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/customer%20page%200.jpg)
 - The total number customers between january 2019 to september 2022 is 1000.
 - The total number of customers that should be issued a loyalty card is 487.
 - Average quantity of coffee beans bought by customers is 3.56.
