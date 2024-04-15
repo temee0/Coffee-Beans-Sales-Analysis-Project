@@ -84,10 +84,10 @@ I created a metric that determines customers that get added to the loyalty progr
 With a total of 487 customers eligible for a loyalty card, you have the opportunity to build stronger relationships with these individuals and potentially increase their lifetime value to your business. 
 Implementing a well-designed loyalty program can not only drive customer loyalty but also contribute to increased revenue and profitability over time. It's important to communicate the benefits of the program effectively to customers and ensure that the rewards offered are compelling enough to encourage participation.
 
-it is important to incentivize the first purchase of the customers that are yet to place an order by offering special incentives or discounts to encourage these customers to make their first purchase. Reach out to these customers to gather feedback on their reasons for not making a purchase. Understanding their concerns or barriers can provide valuable insights into areas where the business can improve its offerings or customer experience to attract and convert them into active customers.
-
 I created another metric that i used to identify 293 customers who qualify for a 10% discount. This presents an opportunity to incentivize repeat purchases and foster customer loyalty. 
 Offering discounts can encourage these customers to make more frequent purchases and potentially increase their overall spending with the business.
+
+it is important to incentivize the first purchase of the customers that are yet to place an order by offering special incentives or discounts to encourage these customers to make their first purchase. Reach out to these customers to gather feedback on their reasons for not making a purchase. Understanding their concerns or barriers can provide valuable insights into areas where the business can improve its offerings or customer experience to attract and convert them into active customers.
 
 
 
