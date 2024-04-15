@@ -99,22 +99,18 @@ data was efficiently cleaned and transformed using microsoft excel tool and form
   1. calculated the average sales per customer <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
 =AVERAGE(M2:M958)</kbd>   
   2. Added a sales field to the customer table to using the vertical lookup function  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-=VLOOKUP(A2,orders!$C$1:$M$958,11,FALSE)
-</kbd>  
+=VLOOKUP(A2,orders!$C$1:$M$958,11,FALSE)</kbd>  
   3. Added a loyalty customer field by choosing customers with sales value above the average sales value as eligible for the loyalty program <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-=IF(J2>45,"yes","no")
-</kbd>  
+=IF(J2>45,"yes","no")</kbd>  
   4. Calculated the total number of customers eligible for a loyalty card using the DAX Calculate function  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-Loyalty Customers = CALCULATE([Total Customers],customers[Loyalty_card] = "yes")
-</kbd>   
+Loyalty Customers = CALCULATE([Total Customers],customers[Loyalty_card] = "yes")</kbd>   
 - created a metric to determine customers that qualify for the 10% discount promo using the DAX Calculate function  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-10% off discount = IF([Total Revenue]>50,"Yes","No")   
-customers eligible for discount = CALCULATE(COUNTROWS(orders), orders[10% off discount] = "yes")
-</kbd>   
+10% off discount = IF([Total Revenue]>50,"Yes","No")  
+customers eligible for discount = CALCULATE(COUNTROWS(orders), orders[10% off discount] = "yes")</kbd>   
 - Determined the total number of customers that are yet to order using sql query <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-select count(c.customer_id) from customers as c
-  left join orders as o
-  on c.customer_id=o.customer_id
+select count(c.customer_id) from customers as c   
+  left join orders as o  
+  on c.customer_id=o.customer_id  
   where o.order_id is null
 </kbd>
 
