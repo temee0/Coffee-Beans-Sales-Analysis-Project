@@ -87,6 +87,11 @@ Implementing a well-designed loyalty program can not only drive customer loyalty
 I created another metric that i used to identify 293 customers who qualify for a 10% discount. This presents an opportunity to incentivize repeat purchases and foster customer loyalty. 
 Offering discounts can encourage these customers to make more frequent purchases and potentially increase their overall spending with the business.
 
+## Data Transformation/cleaning
+data was efficiently cleaned and transformed using microsoft excel tool and formulas. I, also employed tghe use of power bi and the dax language. some of the applied steps are listed below:
+- using the filter and replace tools to find errors and make corrections
+- 
+
 it is important to incentivize the first purchase of the customers that are yet to place an order by offering special incentives or discounts to encourage these customers to make their first purchase. Reach out to these customers to gather feedback on their reasons for not making a purchase. Understanding their concerns or barriers can provide valuable insights into areas where the business can improve its offerings or customer experience to attract and convert them into active customers.
 
 
