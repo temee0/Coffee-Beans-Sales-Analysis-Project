@@ -91,11 +91,31 @@ it is important to incentivize the first purchase of the customers that are yet 
 
 ## Data Transformation/cleaning
 data was efficiently cleaned and transformed using microsoft excel tool and formulas. I, also employed tghe use of power bi and the dax language. some of the applied steps are listed below:
-- using the filter and replace tools to find errors and make corrections
-- adding a sales field to our table by calculating how much was earned on each order by multiplying unit price by quantity <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-Quantity * Unit price
+- Using the filter and replace tools to find errors and make corrections in excel.
+- Deleting duplicate rows. 
+- Adding a sales field to the Orders table by calculating how much was earned on each order by multiplying unit price by quantity <kbd style="background-color: #B8AFAF; padding: 10px; border-radius: 5px;">
+  =Quantity * Unit price</kbd>
+- created a metrics to determine the customers that should be eligible for a loyalty card with the following steps:  
+  1. calculated the average sales per customer <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+=AVERAGE(M2:M958)</kbd>   
+  2. Added a sales field to the customer table to using the vertical lookup function  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+=VLOOKUP(A2,orders!$C$1:$M$958,11,FALSE)
+</kbd>  
+  3. Added a loyalty customer field by choosing customers with sales value above the average sales value as eligible for the loyalty program <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+=IF(J2>45,"yes","no")
+</kbd>  
+  4. Calculated the total number of customers eligible for a loyalty card using the DAX Calculate function  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+Loyalty Customers = CALCULATE([Total Customers],customers[Loyalty_card] = "yes")
+</kbd>   
+- created a metric to determine customers that qualify for the 10% discount promo using the DAX Calculate function  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+10% off discount = IF([Total Revenue]>50,"Yes","No")   
+customers eligible for discount = CALCULATE(COUNTROWS(orders), orders[10% off discount] = "yes")
+</kbd>   
+- Determined the total number of customers that are yet to order using sql query <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+select count(c.customer_id) from customers as c
+  left join orders as o
+  on c.customer_id=o.customer_id
+  where o.order_id is null
 </kbd>
-
-
 
 
