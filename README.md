@@ -46,7 +46,7 @@ This report comprises of 2 pages
 - Sales page
 - Customer page
       
-You can interact with the report [here]
+You can interact with the report [here](https://drive.google.com/file/d/1N5sDq5QJzycIE82mu3o_LXcJKqAS8d5W/view?usp=drivesdk)
 
 ## Sales
 ![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/sales%20page.jpg)
@@ -62,7 +62,7 @@ You can interact with the report [here]
 - The total number of customers that should be issued a loyalty card is 487.
 - Average quantity of coffee beans bought by customers is 3.56.
 - The top two most ordered coffee beans by customer are Arabica and Excelsa and they both account for 51% of the total orders.
-- the countries with the highest and lowest numbers of customers are the United states and United kingdm respectively.
+- The countries with the highest and lowest numbers of customers are the United states and United kingdm respectively.
 - The total number of customers that should be eligible for a 10% discount are 293.
 - The total number of customers that are yet to place an order are 87.
 
