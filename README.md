@@ -14,7 +14,7 @@ On average, how much coffee are our customers ordering?
 #### 3. Global Snapshot:
 How are our customers spread out across the US, UK, and Ireland?
 #### 4. Loyalty Rewards:
-How many customers are part of our loyalty program, and how much are they spending?
+How many customers should be part of our loyalty program?
 #### 5. Engagement Challenge:
 How many customers haven't placed an order yet, and what strategies can we use to encourage them?
 #### 6. Discount Eligibility:
@@ -67,11 +67,27 @@ You can interact with the report [here]
 - The total number of customers that are yet to place an order are 87.
 
 ## Conclusion
+The business has generated a total revenue of $43,381 and a profit of $4,340 from January 2019 to September 2022.
+
 The United States is the dominant market, contributing 80% of the total revenue. This suggests a strong foothold in the US market and potential opportunities for further expansion.
 
 Liberica and Excelsa coffee beans types generate the most profit indicating higher profit margins compared to other coffee beans. 
 
 The presence of 87 customers who have yet to place an order signals a potential area for improvement in customer engagement or outreach. 
+
+## Recommendations
+While the US market is lucrative, it's also important for the business to diversify its geographical reach to mitigate risks associated with relying too heavily on one market. It is important to explore opportunities in other regions or countries to help spread risk and unlock new revenue streams. This could involve opening new stores in strategic locations, expanding distribution channels, or increasing marketing efforts to reach more customers in other countries or regions.
+
+Since Arabica and Excelsa coffee beans are the top-selling varieties, the business should ensure ample availability of Arabica and Excelsa coffee beans to meet customer demand. Additionally, it could consider promoting these varieties more prominently to further capitalize on their popularity.
+
+I created a metric that determines customers that get added to the loyalty program after they have exceed a certain amount of purchase value. A total number of 487 customers qualified for a loyalty card, starting a loaylty program is  a strategic move to enhance customer retention and encourage repeat business. Loyalty programs often incentivize customers to choose your business over competitors.  
+With a total of 487 customers eligible for a loyalty card, you have the opportunity to build stronger relationships with these individuals and potentially increase their lifetime value to your business. 
+Implementing a well-designed loyalty program can not only drive customer loyalty but also contribute to increased revenue and profitability over time. It's important to communicate the benefits of the program effectively to customers and ensure that the rewards offered are compelling enough to encourage participation.
+
+it is important to incentivize the first purchase of the customers that are yet to place an order by offering special incentives or discounts to encourage these customers to make their first purchase. Reach out to these customers to gather feedback on their reasons for not making a purchase. Understanding their concerns or barriers can provide valuable insights into areas where the business can improve its offerings or customer experience to attract and convert them into active customers.
+
+I created another metric that i used to identify 293 customers who qualify for a 10% discount. This presents an opportunity to incentivize repeat purchases and foster customer loyalty. 
+Offering discounts can encourage these customers to make more frequent purchases and potentially increase their overall spending with the business.
 
 
 
