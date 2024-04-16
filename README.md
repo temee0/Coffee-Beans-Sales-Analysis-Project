@@ -108,11 +108,16 @@ Loyalty Customers = CALCULATE([Total Customers],customers[Loyalty_card] = "yes")
 - I created a metric to determine customers that qualify for the 10% discount promo using the DAX CALCULATE function.  <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
 10% off discount = IF([Total Revenue]>50,"Yes","No")  
 customers eligible for discount = CALCULATE(COUNTROWS(orders), orders[10% off discount] = "yes")</kbd>   
-- Determined the total number of customers that are yet to order using sql query <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+- I determined the total number of customers who are yet to place an order using an SQL query. <kbd style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
 select count(c.customer_id) from customers as c   
   left join orders as o  
   on c.customer_id=o.customer_id  
   where o.order_id is null
 </kbd>
+
+---
+
+![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/coffee%20conclusion%20pic.jpg)  
+#### Thank you for taking the time to read through this report.
 
 
