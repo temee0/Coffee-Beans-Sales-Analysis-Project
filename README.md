@@ -2,8 +2,8 @@
 ![](https://github.com/temee0/Coffee-Beans-Sales-Analysis-Project/blob/main/intro%20pic.jpg)
 
 ## Introduction
-
-This is an exploratory data analysis (EDA) project focused on the sales analysis of a fictional coffee bean store. The purpose of this project is to analyze and derive insights to address crucial questions and assist the store in making data-driven decisions.     
+This project involves analyzing sales data for a fictional coffee bean store. Our goal is to uncover insights that answer key questions and guide data-driven decisions.  
+Using descriptive, diagnostic, and prescriptive analysis approach, we summarize sales metrics, diagnose trends, and provide actionable recommendations. This approach helps us understand past performance and make informed choices for future success.   
 **_Disclaimer_** :  _The dataset used in this analysis is sourced from Kaggle and is entirely fictitious. Therefore, this report does not represent any specific company, institution, or country. Rather, it serves as a demonstration of data analysis and visualization skills._
 
 ## Problem Statement
